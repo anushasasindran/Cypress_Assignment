@@ -65,7 +65,7 @@ npm run CLtest(to run the UI tests in CL)
 npm run chromeTest(to run the UI tests in Chrome Browser)  
 npm run mochawesome-merge(to generate the reports)  
 
-# **Scripts to run the tests**  
+# **Test Results**  
 Test results are available under mochaawesome-report folder   
 
 **Total TC **: 16  
