@@ -1,37 +1,37 @@
 # **CypressE2EComplete**
-This repository contains a Cypress Framework to validate the UI features of a particular website
+This repository contains a Cypress Framework to validate the UI features of a particular website.  
 It demonstrates robust examples of data-driven testing using JSON files, using Mocha BDD framework, Page Object Model for design pattern, Mochaawesome reports for reporting
-# **Description**
-The application tested : https://blue-bite-dev-3.bluebite.io/04425f7c-4fdd-47f6-85b3-b800d12bb9ca
-**Framework Design**
-**e2e folder** : This contains the folders
-POM
-helperBase
-UI
-POM contais the formPage.js that contains the locators and functions for the formPage  
-helperBase contains the helperBase.js that contain common functions for formPage.js and this is Parent class to formPage.js
-UI folder contains testcases  
+# **Description**  
+The application tested : https://blue-bite-dev-3.bluebite.io/04425f7c-4fdd-47f6-85b3-b800d12bb9ca  
+**Framework Design**  
+**e2e folder** : This contains the folders  
+POM  
+helperBase  
+UI  
+POM contais the formPage.js that contains the locators and functions for the formPage    
+helperBase contains the helperBase.js that contain common functions for formPage.js and this is Parent class to formPage.js  
+UI folder contains testcases   
 The test cases are categorized as   
 **formSubmissionsAndLocalStorage.js** - Verifying form submission with valid data from JSON and subsequent local storage count updates. 
 Setting, getting and deleting the count from local storage to verify the submission count  
 **formAssertions.js** - Verifying the form, input fields with different set of both positive and negative values  
 **formCssAssertions.js** - Based on the design document provided verifying the CSS properties of Images, Input fields, Title, Buttons etc  
 **responsivetest.js** - Three viewport size are selected, one for iphone, one for android and one for tablet and verifying the reponsiveness  
-A master spec file order.testCases.cy.js to keep the test cases in order to execute
+A master spec file order.testCases.cy.js to keep the test cases in order to execute  
 
-**Fixtures folder** - For data driven testing. Data in the format of JSONS
-cssData.json - Contains data for all the CSS properties of each element
-formData.json - Positive and negative values for the form submission
+**Fixtures folder** - For data driven testing. Data in the form of JSON  
+cssData.json - Contains data for all the CSS properties of each element  
+formData.json - Positive and negative values for the form submission  
 
-**Support folder** 
-command.js - Contains the command functions 
-util.js - Common functions
+**Support folder**  
+command.js - Contains the command functions  
+util.js - Common functions  
 
-**Package.json** - For dependencies and scripts . The scripts to run are saved here
-**cypress.config.json** - For global settings
+**Package.json** - For dependencies and scripts . The scripts to run are saved here  
+**cypress.config.json** - For global settings  
 
 # **Pre-requistes**  
-**Operating System**: Cypress is a desktop application that is installed on your computer. It supports macOS, Linux, and Windows.  
+**Operating System**: Cypress is a desktop application that is installed on your computer. It supports macOS, Linux, and Windows.   
 **Node.js**: Cypress is a Node.js application. Ensure you have Node.js (and npm) installed. A version of 10 or above is recommended.  
 **Supported Browsers**: While Cypress can run tests in any browser installed on your machine, it's good to have Chrome, Firefox, Edge installed and updated to latest versions.  
 **Development Environment**: Code editor(preferably Visual studio code).  
