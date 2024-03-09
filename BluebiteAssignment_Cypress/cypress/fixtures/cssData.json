@@ -1,0 +1,68 @@
+{
+    "title-Text": {
+        "font-size": "20px",
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "400",
+        "color": "rgb(0, 0, 0)"
+    },
+    "submit-Button":{
+        "font-size": "14px",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "color": "rgb(255, 255, 255)"
+    },
+    "header-Image": {
+        "height": "214px",
+        "width": "480px",
+        "border-radius":"2.5px"
+    },
+    "footer-Image": {
+        "height": "320.15625px",
+        "width": "480px",
+        "border-radius":"2.5px"
+    },
+    "email-Field": {
+        "height": "30px",
+        "width": "438px",
+        "border-radius":"3px",
+        "border-color":"rgb(221, 221, 221)",
+        "border-width":"1px",
+        "background-color":"rgb(255, 255, 255)" ,
+        "font-size": "14px",
+        "font-weight": "400",
+        "color": "rgb(0, 0, 0)"
+    },
+    "name-Field": {
+        "height": "30px",
+        "width": "438px",
+        "border-radius":"3px",
+        "border-color":"rgb(221, 221, 221)",
+        "border-width":"1px",
+        "background-color":"rgb(255, 255, 255)" ,
+        "font-size": "14px",
+        "font-weight": "400",
+        "color": "rgb(0, 0, 0)"
+    },
+    "age-Field": {
+        "height": "30px",
+        "width": "438px",
+        "border-radius":"3px",
+        "border-color":"rgb(221, 221, 221)",
+        "border-width":"1px",
+        "background-color":"rgb(255, 255, 255)" ,
+        "font-size": "14px",
+        "font-weight": "400",
+        "color": "rgb(0, 0, 0)"
+    },
+    "reason-Field": {
+        "height": "30px",
+        "width": "438px",
+        "border-radius":"3px",
+        "border-color":"rgb(221, 221, 221)",
+        "border-width":"1px",
+        "background-color":"rgb(255, 255, 255)" ,
+        "font-size": "14px",
+        "font-weight": "400",
+        "color": "rgb(0, 0, 0)"
+    }
+}

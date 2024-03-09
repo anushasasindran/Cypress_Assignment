@@ -1,0 +1,88 @@
+{ "validData": 
+  [ 
+    { 
+        "name": "test user", 
+        "email": "test@user.com", 
+        "age": "18", 
+        "reason": "simple" 
+    },
+    { 
+        "name": "example",
+        "email": "example@test.com", 
+        "age": "19", 
+        "reason": "test reason" 
+    },
+    { 
+        "name": "first middle last",
+        "email": "firstuser@test.com", 
+        "age": "30", 
+        "reason": "test reason" 
+    },
+    { 
+        "name": "test",
+        "email": "test@test.com", 
+        "age": "100", 
+        "reason": "Due to many reasons" 
+    },
+    { 
+        "name": "demo user",
+        "email": "demo@test.com", 
+        "age": "50", 
+        "reason": "no reason" 
+    }
+],
+"ageLessthan18": 
+  [ 
+    { 
+        "name": "age test", 
+        "email": "test@user.com", 
+        "age": "17", 
+        "reason": "simple" 
+    },
+    { 
+        "name": "random test",
+        "email": "random@test.com", 
+        "age": "16", 
+        "reason": "test reason" 
+    },
+    { 
+        "name": "example test",
+        "email": "example@test.com", 
+        "age": "10", 
+        "reason": "test reason" 
+    },
+    { 
+        "name": "first middle last",
+        "email": "firstuser@test.com", 
+        "age": "1", 
+        "reason": "test reason" 
+    }
+],
+"invalidData": 
+  [ 
+    { 
+        "name": "test", 
+        "email": " ", 
+        "age": " ", 
+        "reason": " " 
+    },
+    { 
+        "name": "12345", 
+        "email": "testuser.com", 
+        "age": "-1", 
+        "reason": " " 
+    },
+    { 
+        "name": "a",
+        "email": "a", 
+        "age": "a", 
+        "reason": " " 
+    },
+    { 
+        "name": "test@#$",
+        "email": "test@email.com", 
+        "age": "0", 
+        "reason": " " 
+    }
+]
+}
