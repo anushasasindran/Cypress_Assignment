@@ -51,13 +51,14 @@ npx cypress open : This open the cypress test runner and to configure framework
 **Using command line headless mode to run a single file**: npx cypress run --spec “filepath” runs a single file from the file path mentioned.    
 **Using command line headed mode to run in specific browsers** : "npx cypress run --headed --browser <broswername> --spec ‘folder path’”  
 
-# *Reporting**  
+# *Reporting*
 Mochawesome reports are used.  
 Install by using the below commands:  
 npm install mochawesome --save-dev  
 npm install mochawesome-merge --save-dev  
 npm install mochawesome-report-generator --save-dev  
-# **Scripts t**  
+
+# **Scripts to run the tests**  
 The scripts to run are given under Scripts on Package.json file(to run in test runner and Commandline in headed and non-headed).  
 npm run clean-up(to clean the previous results)
 npm run CLtest(to run the UI tests in CL)  
