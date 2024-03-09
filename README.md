@@ -66,10 +66,12 @@ npm run chromeTest(to run the UI tests in Chrome Browser)
 npm run mochawesome-merge(to generate the reports)  
 
 # **Scripts to run the tests**  
-Test results are available under mochaawesome-report folder 
-Total TC : 16  
-Passed : 12  
-Failed : 4  
+Test results are available under mochaawesome-report folder   
+
+**Total TC **: 16  
+**Passed **: 12  
+**Failed** : 4  
+
 4 test cases are failing due to the below bugs in application  
  1. Input age 17 should show message that 'Age must be greater than or equal to 18". Currenly it is submitting the data though age is less than 18  
  2. On focus the input fields(name,age,email,reason) should turns to blue color. Currently it shows in black color  
