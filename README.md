@@ -68,8 +68,8 @@ npm run mochawesome-merge(to generate the reports)
 # **Test Results**  
 Test results are available under mochaawesome-report folder   
 
-**Total TC **: 16  
-**Passed **: 12  
+**Total TC**: 16  
+**Passed**: 12  
 **Failed** : 4  
 
 4 test cases are failing due to the below bugs in application  
